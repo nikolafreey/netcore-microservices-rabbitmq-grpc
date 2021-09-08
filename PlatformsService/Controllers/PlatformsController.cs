@@ -3,12 +3,12 @@ using System.Collections.Generic;
 using System.Threading.Tasks;
 using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
-using PlatformService.Data;
-using PlatformService.Dtos;
-using PlatformService.Models;
-using PlatformService.SyncDataServices.Http;
+using PlatformsService.Data;
+using PlatformsService.Dtos;
+using PlatformsService.Models;
+using PlatformsService.SyncDataServices.Http;
 
-namespace PlatformService.Controllers
+namespace PlatformsService.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]

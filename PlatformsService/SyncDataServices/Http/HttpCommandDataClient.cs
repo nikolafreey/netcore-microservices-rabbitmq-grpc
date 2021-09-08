@@ -4,9 +4,9 @@ using System.Text;
 using System.Text.Json;
 using System.Threading.Tasks;
 using Microsoft.Extensions.Configuration;
-using PlatformService.Dtos;
+using PlatformsService.Dtos;
 
-namespace PlatformService.SyncDataServices.Http
+namespace PlatformsService.SyncDataServices.Http
 {
     public class HttpCommandDataClient : ICommandDataClient
     {

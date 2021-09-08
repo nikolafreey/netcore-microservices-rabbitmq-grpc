@@ -3,9 +3,9 @@ using System.Linq;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
-using PlatformService.Models;
+using PlatformsService.Models;
 
-namespace PlatformService.Data
+namespace PlatformsService.Data
 {
     public static class PrepDb
     {

@@ -12,10 +12,10 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
-using PlatformService.Data;
-using PlatformService.SyncDataServices.Http;
+using PlatformsService.Data;
+using PlatformsService.SyncDataServices.Http;
 
-namespace PlatformService
+namespace PlatformsService
 {
     public class Startup
     {
@@ -49,7 +49,7 @@ namespace PlatformService
             services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "PlatformService", Version = "v1" });
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "PlatformsService", Version = "v1" });
             });
 
             Console.WriteLine($"--> CommandService Endpoint {Configuration["CommandService"]}");
@@ -62,7 +62,7 @@ namespace PlatformService
             {
                 app.UseDeveloperExceptionPage();
                 app.UseSwagger();
-                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "PlatformService v1"));
+                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "PlatformsService v1"));
             }
 
             //app.UseHttpsRedirection();

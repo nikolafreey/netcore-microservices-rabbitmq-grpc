@@ -6,12 +6,12 @@ spec:
   replicas: 1
   selector:
     matchLabels:
-      app: platformservice
+      app: PlatformsService
   template:
     metadata:
       labels:
-        app: platformservice
+        app: PlatformsService
     spec:
       containers:
-        - name: platformservice
-          image: nikolav54/platformservice:latest
+        - name: PlatformsService
+          image: nikolav54/PlatformsService:latest

@@ -4,9 +4,9 @@ using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using PlatformService.Data;
+using PlatformsService.Data;
 
-namespace PlatformService.Migrations
+namespace PlatformsService.Migrations
 {
     [DbContext(typeof(AppDbContext))]
     [Migration("20210907125449_initialmigration")]
@@ -20,7 +20,7 @@ namespace PlatformService.Migrations
                 .HasAnnotation("ProductVersion", "5.0.9")
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-            modelBuilder.Entity("PlatformService.Models.Platform", b =>
+            modelBuilder.Entity("PlatformsService.Models.Platform", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()

@@ -1,7 +1,7 @@
 using System.Threading.Tasks;
-using PlatformService.Dtos;
+using PlatformsService.Dtos;
 
-namespace PlatformService.SyncDataServices.Http
+namespace PlatformsService.SyncDataServices.Http
 {
     public interface ICommandDataClient
     {

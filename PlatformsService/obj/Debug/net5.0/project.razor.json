@@ -1,5 +1,5 @@
 {
-  "FilePath": "c:\\Users\\nikola.vukovic\\Documents\\Projekti\\.NET Core\\Microservices Les Jackson\\PlatformsService\\PlatformService.csproj",
+  "FilePath": "c:\\Users\\nikola.vukovic\\Documents\\Projekti\\.NET Core\\Microservices Les Jackson\\PlatformsService\\PlatformsService.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "5.0",
@@ -15616,7 +15616,7 @@
     ],
     "CSharpLanguageVersion": 900
   },
-  "RootNamespace": "PlatformService",
+  "RootNamespace": "PlatformsService",
   "Documents": [],
   "SerializationFormat": "0.2"
 }
