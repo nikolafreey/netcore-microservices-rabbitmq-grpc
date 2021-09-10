@@ -6,15 +6,15 @@ spec:
   replicas: 1
   selector:
     matchLabels:
-      app: PlatformsService
+      app: platformservice
   template:
     metadata:
       labels:
-        app: PlatformsService
+        app: platformservice
     spec:
       containers:
-        - name: PlatformsService
-          image: nikolav54/PlatformsService:latest
+        - name: platformsservice
+          image: nikolav54/platformsservice:latest
 ---
 apiVersion: v1
 kind: Service
@@ -23,9 +23,13 @@ metadata:
 spec:
   type: ClusterIP
   selector:
-    app: PlatformsService
+    app: platformsservice
   ports:
-    - name: PlatformsService
+    - name: platformsservice
       protocol: TCP
       port: 80
-      targetPort: 80 
+      targetPort: 80
+    - name: platformgrpc
+      protocol: TCP
+      port: 666
+      targetPort: 666
