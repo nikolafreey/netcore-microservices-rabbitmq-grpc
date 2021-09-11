@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: platformsservice
-          image: nikolav54/platformsservice:latest
+          image: nikolav54/platformservice:latest
 ---
 apiVersion: v1
 kind: Service
