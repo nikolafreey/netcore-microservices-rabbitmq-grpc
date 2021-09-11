@@ -66,3 +66,10 @@ C:\Users\nikola.vukovic\Documents\Projekti\.NET Core\Microservices Les Jackson\P
 C:\Users\nikola.vukovic\Documents\Projekti\.NET Core\Microservices Les Jackson\PlatformsService\obj\Debug\net5.0\ref\PlatformService.dll
 C:\Users\nikola.vukovic\Documents\Projekti\.NET Core\Microservices Les Jackson\PlatformsService\obj\Debug\net5.0\PlatformService.pdb
 C:\Users\nikola.vukovic\Documents\Projekti\.NET Core\Microservices Les Jackson\PlatformsService\obj\Debug\net5.0\PlatformService.genruntimeconfig.cache
+C:\Users\nikola.vukovic\Documents\Projekti\.NET Core\Microservices Les Jackson\PlatformsService\bin\Debug\net5.0\Google.Protobuf.dll
+C:\Users\nikola.vukovic\Documents\Projekti\.NET Core\Microservices Les Jackson\PlatformsService\bin\Debug\net5.0\Grpc.AspNetCore.Server.dll
+C:\Users\nikola.vukovic\Documents\Projekti\.NET Core\Microservices Les Jackson\PlatformsService\bin\Debug\net5.0\Grpc.AspNetCore.Server.ClientFactory.dll
+C:\Users\nikola.vukovic\Documents\Projekti\.NET Core\Microservices Les Jackson\PlatformsService\bin\Debug\net5.0\Grpc.Core.Api.dll
+C:\Users\nikola.vukovic\Documents\Projekti\.NET Core\Microservices Les Jackson\PlatformsService\bin\Debug\net5.0\Grpc.Net.Client.dll
+C:\Users\nikola.vukovic\Documents\Projekti\.NET Core\Microservices Les Jackson\PlatformsService\bin\Debug\net5.0\Grpc.Net.ClientFactory.dll
+C:\Users\nikola.vukovic\Documents\Projekti\.NET Core\Microservices Les Jackson\PlatformsService\bin\Debug\net5.0\Grpc.Net.Common.dll
